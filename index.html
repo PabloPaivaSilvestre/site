@@ -1,0 +1,103 @@
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baterias Cunha - Energia Premium para seu Veículo</title>
+    <meta name="description" content="Baterias automotivas premium com tecnologia avançada. Instalação gratuita, garantia e atendimento especializado em São Paulo." />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://static.readdy.ai/image/01f80f9b03447858aad54b9173d445e0/27d2a0c587ec42922bd7428914b65f30.jfif" as="image" fetchpriority="high" />
+    <link rel="preload" href="https://static.readdy.ai/image/679a8cfcb22f2886792df750740da3c7/afd123ca58d16d19aa992ae741847738.png" as="image" fetchpriority="high" />
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//static.readdy.ai" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://static.readdy.ai" crossorigin />
+    
+    <!-- Load critical CSS inline for above-the-fold content -->
+    <style>
+      /* Critical CSS for initial render */
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth}
+      body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;background:#000;color:#fff}
+      .hero-bg{background-image:url('https://static.readdy.ai/image/01f80f9b03447858aad54b9173d445e0/27d2a0c587ec42922bd7428914b65f30.jfif');background-size:cover;background-position:center;min-height:100vh}
+      .nav-fixed{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(12px);background:rgba(17,24,39,0.95)}
+    </style>
+    
+    <!-- Load non-critical CSS asynchronously -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" /></noscript>
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /></noscript>
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Baterias Cunha",
+      "description": "Especializada em baterias automotivas premium com tecnologia avançada, instalação gratuita e atendimento especializado.",
+      "url": "https://bateriascunha.com.br",
+      "telephone": "+55 11 4165-1062",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua das Baterias, 123",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "01234-567",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.5505,
+        "longitude": -46.6333
+      },
+      "openingHours": [
+        "Mo-Fr 08:00-18:00",
+        "Sa 08:00-14:00"
+      ],
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "City",
+        "name": "São Paulo"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Catálogo de Baterias",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalação Gratuita de Baterias",
+              "description": "Serviço completo de instalação e teste de baterias automotivas"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- Load main script with defer for better performance -->
+    <script type="module" src="/src/main.tsx" defer></script>
+    
+    <!-- Async loading helper for CSS -->
+    <script>
+      !function(e){"use strict";var t=function(t,n,r){function o(e){return i.body?e():void setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var i=e.document,d=i.createElement("link");if(n)d.href=n;else{if(!t)return;d.href=t}d.rel="stylesheet",d.media="only x",o(function(){i.head.appendChild(d)}),setTimeout(a,0)};"undefined"!=typeof module?module.exports=t:e.loadCSS=t}("undefined"!=typeof global?global:this);
+    </script>
+  </body>
+</html>
